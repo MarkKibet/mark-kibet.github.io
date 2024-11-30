@@ -44,60 +44,6 @@ h2 {
     margin-bottom: 0.75rem;
 }
 
-/* Carousel styles */
-#carousel {
-    position: relative;
-    margin-bottom: 1.5rem;
-}
-
-.carousel-container {
-    max-width: 800px;
-    position: relative;
-    margin: auto;
-}
-
-.slide {
-    display: none;
-}
-
-.slide img {
-    width: 100%;
-    max-height: 400px; /* Adjust the max-height as needed */
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.text {
-    position: absolute;
-    bottom: 15px;
-    left: 15px;
-    color: #fff;
-    font-size: 1.25rem;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 0.5rem;
-    border-radius: 5px;
-}
-
-.dots {
-    text-align: center;
-    margin-top: 10px;
-}
-
-.dot {
-    height: 10px;
-    width: 10px;
-    margin: 0 4px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.active {
-    background-color: #717171;
-}
-
-/* Upload section styles */
 #upload {
     background-color: #fff;
     padding: 1.25rem;
@@ -125,7 +71,6 @@ h2 {
     background-color: #ff8c00;
 }
 
-/* Gallery styles */
 #photoGrid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -161,7 +106,6 @@ h2 {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Footer styles */
 footer {
     background-color: #333;
     color: #fff;
